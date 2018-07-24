@@ -1,0 +1,71 @@
+<form class="form" action="post" method="post">
+
+    <h1>Formulario</h1>
+  
+    <div class="signup__field">
+      <label for="first_name" class="label">Nome</label>
+      <input type="text" name="first_name" id="first_name" class="input-field">
+    </div>
+  
+    <div class="signup__field">
+      <label for="last_name" class="label">Sobrenome</label>
+      <input type="text" name="last_name" id="last_name" class="input-field">
+    </div>
+  
+    <div class="signup__field">
+      <label for="email" class="label">Email </label>
+      <input type="email" name="email" id="email" class="input-field" required>
+    </div>
+  
+    <div class="signup__field">
+      <label for="password" class="label">Senha</label>
+      <input type="password" name="password" id="password" class="input-field" required>
+    </div>
+  
+    <fieldset>
+      <legend>Favoritos</legend>
+  
+      <div class="signup__field">
+        <label class="label" for="fav_color">Qual sua cor favorita?</label>
+        <div class="select-field">
+          <select name="fav_color" id="fav_color" class="select-field__menu">
+            <option>Por favor selecione uma opcao</option>
+            <option value="Red">Vermelho</option>
+            <option value="Orange">Laranja</option>
+            <option value="Yellow">Amarelo</option>
+            <option value="Green">Verde</option>
+            <option value="Blue">Azul</option>
+            <option value="Purple">Roxo</option>
+          </select>
+        </div>
+      </div>
+  
+      <div class="signup__field">
+        <div class="label">Para voce quem ira ganhar a copa 2018?</div>
+  
+        <input type="radio" value="leo" id="nt_leo" name="ninja_turtle">
+        <label for="nt_leo">Franca</label>
+  
+        <input type="radio" value="leo" id="nt_mikey" name="ninja_turtle">
+        <label for="nt_mikey">Croacia</label>
+  
+        <input type="radio" value="donnie" id="nt_donnie" name="ninja_turtle">
+        <label for="nt_donnie">Belgica</label>
+  
+        <input type="radio" value="raph" id="nt_raph" name="ninja_turtle">
+        <label for="nt_raph">Inglaterra</label>
+      </div>
+  
+    </fieldset>
+  
+    <div class="signup__field">
+      <input type="checkbox" id="amazing" name="amazing" required>
+      <!-- always remember: you are amazing. -->
+      <label for="amazing">Confirme seu voto</label>
+    </div>
+  
+    <div class="signup__button">
+      <button class="button" type="submit">Clique aqui</button>
+    </div>
+  
+  </form>
